@@ -1,0 +1,23 @@
+/* bind to-do-list in one column */
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* design buttons */
+.delete-button, .edit-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #dc3545 !important;
+  color: white;
+}
+
+.edit-button {
+  background-color: #ffc107 !important;
+  color: black;
+}

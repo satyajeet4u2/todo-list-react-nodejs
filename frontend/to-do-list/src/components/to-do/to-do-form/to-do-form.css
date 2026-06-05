@@ -1,0 +1,30 @@
+/* apply csss  for input fields */
+
+/* bind to-do-form in one column */
+.to-do-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* align button  below of input fields */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
